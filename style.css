@@ -1,0 +1,37 @@
+body{
+    background-color: lightcoral;
+}
+
+#openModal{
+    float: right;
+    margin-right: 50px;
+    font-size:20px
+}
+
+h1{
+    background-color: mintcream;
+    padding-left: 150px;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 15px;
+    animation-name: example;
+    animation-duration: 5s;
+    margin-top: 10px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 20px plum};
+    to{box-shadow: 1px 1px 20px palevioletred};
+}
+
+p{
+    font-size: 50px;
+    font-family: Haettenschweiler;
+}
+
+#erase_canvas{
+    font-size: 30px;
+}
